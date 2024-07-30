@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+      >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/movie_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:shapeAppearanceOverlay="@style/heading_circular"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:background="@drawable/movie_detail_background"
+                android:layout_alignParentBottom="true">
+                <TextView
+                    android:id="@+id/movie_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movie name"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+
+                    >
+                    <View
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:background="@drawable/star_svgrepo_com"/>
+                    <TextView
+                        android:id="@+id/imbd_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="7.0"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textStyle="normal"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"/>
+                    <TextView
+                        android:id="@+id/movie_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:text="2024"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textStyle="normal"
+                        android:textColor="#AFAFAF"
+                        android:textSize="18dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            
+          <RelativeLayout
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_alignParentEnd="true"
+              android:gravity="center">
+
+              <View
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+
+                  android:layout_centerInParent="true"
+                  android:background="@drawable/custom_circular" />
+              <View
+                  android:id="@+id/addto_watchlist"
+                  android:layout_width="25dp"
+                  android:layout_height="25dp"
+                  android:layout_centerInParent="true"
+                 android:clickable="true"
+                  android:background="@drawable/favorite_bookmark"
+                  />
+
+
+          </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

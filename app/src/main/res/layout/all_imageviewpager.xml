@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        android:background="@drawable/custom_slide_background"
+        android:padding="1dp"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/slide_image"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/heading_circular"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

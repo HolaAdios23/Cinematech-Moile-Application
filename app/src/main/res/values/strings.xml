@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cinematech</string>
+    <string name="title_description">Find millions of movies information here!</string>
+    <string name="login_button">Log In</string>
+    <string name="register_button">Register</string>
+    <string name="create_account">Create An Account</string>
+    <string name="register_agree">By signing you agree to our terms of use and our privacypolicy</string>
+
+    <string name="story_description">Lorem ipsum dolor sit amet, consectetur adipsicing elit. Cras varius pulvinar nisl. Pellentesque mi nisl, tempus eu leop, eget, pellentesque egestas justo. Cras imprediet neque ut est tincidunt ultricies. Aenean posuere non lorem vel facilisis.</string>
+
+    <string name="about_us_intro">Cinematech is an app where users can access all information about movies through search features, they can also add their favorite and pending movies to their watchlist. Cinematech provides comprehensive movie details, including IMBD rating, director, release date, duration, categories. Additionally, Cinematech provides information on TV Shows. All kinds of movie information will be available for all movie enthusiasts.</string>
+    <string name="about_us_mission">Our Primary mission is to ensure ease of interaction for users end to provide a user-friendly experience. Cinematech targets individuals who have a keen interest in movies and are always seeking information about upcoming releases, reviews, and other related details. Our main target audience includes movie enthusiasts, casual viewers, professionals or amateurs, film students and educators who study film. </string>
+
+
+</resources>

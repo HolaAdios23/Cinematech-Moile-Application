@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197295348973",
+    "project_id": "cinematech-61b5c",
+    "storage_bucket": "cinematech-61b5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197295348973:android:419f30ca789575789900e4",
+        "android_client_info": {
+          "package_name": "com.example.cinematech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9D5JzUwJrhUu8Tiei-pblOpapG80iE8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
